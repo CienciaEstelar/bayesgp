@@ -8,7 +8,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-🇬🇧 [**English**](#english) &nbsp;·&nbsp; 🇪🇸 [**Español**](#español)
+🇬🇧 [**English**](#english) &nbsp;·&nbsp; 🇨🇱🇨🇱 [**Español**](#español)
 
 </div>
 
@@ -106,7 +106,7 @@ If you use this code, please cite it via the Zenodo DOI in `CITATION.cff`.
 
 <div align="center">
 
-⸻ &nbsp;&nbsp; 🇪🇸 [Versión en Español](#español) &nbsp;&nbsp; ⸻
+⸻ &nbsp;&nbsp; 🇨🇱🇨🇱 [Versión en Español](#español) &nbsp;&nbsp; ⸻
 
 </div>
 
