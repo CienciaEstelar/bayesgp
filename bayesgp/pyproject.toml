@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bayesgp"
+version = "0.1.0"
+description = "Bayesian Model Averaging over a portfolio of Gaussian Process regressors, with calibrated uncertainty quantification."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Juan Galaz Amengual" }]
+keywords = [
+    "gaussian-process",
+    "bayesian-model-averaging",
+    "uncertainty-quantification",
+    "regression",
+    "machine-learning",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "scikit-learn>=1.3",
+    "joblib>=1.3",
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.7"]
+test = ["pytest>=7.0"]
+dev = ["pytest>=7.0", "matplotlib>=3.7", "ruff"]
+
+[project.urls]
+Repository = "https://github.com/CienciaEstelar/bayesgp"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["bayesgp*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"

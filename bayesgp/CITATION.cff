@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "bayesgp: Bayesian Model Averaging over Gaussian Process Regressors with Calibrated Uncertainty"
+version: 0.1.0
+authors:
+  - family-names: "Galaz Amengual"
+    given-names: "Juan"
+    orcid: "https://orcid.org/0009-0007-7474-7560"
+abstract: >
+  bayesgp implements Bayesian Model Averaging over a portfolio of Gaussian
+  Process regressors with heterogeneous kernels. Posterior weights are
+  computed from log marginal likelihoods via numerically stable softmax,
+  and predictive variance is decomposed correctly into within-model and
+  between-model components via the law of total variance. The package
+  includes calibration diagnostics (PIT values, coverage curves), three
+  synthetic regression datasets, a whitelist-based parser for user-supplied
+  kernel expressions, and a benchmark suite comparing the ensemble against
+  single-kernel scikit-learn baselines.
+keywords:
+  - Gaussian process
+  - Bayesian model averaging
+  - uncertainty quantification
+  - regression
+  - calibration
+  - machine learning
+license: MIT
