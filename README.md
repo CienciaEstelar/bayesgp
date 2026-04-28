@@ -114,7 +114,7 @@ If you use this code, please cite it via the Zenodo DOI in `CITATION.cff`.
 
 <a id="español"></a>
 
-# 🇪🇸 Español
+# 🇨🇱  Español 🇨🇱 
 
 **Promediado Bayesiano de Modelos sobre un portafolio de regresores de Procesos Gaussianos, con cuantificación de incertidumbre calibrada.**
 
